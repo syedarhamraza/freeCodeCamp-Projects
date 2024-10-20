@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://arhammastery-portfolio.vercel.app/_next/image?url=%2Fassets%2Fimg%2Froot%2Fandroid-chrome-512x512.png&w=256&q=75"
+        alt="Product Logo"
+      />
+
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="features">
+        <h2>Features</h2>
+        <p>Discover the best features of our product.</p>
+      </section>
+
+      <section id="product-video">
+        <h2>Product Video</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/kUMe1FH4CHE?si=YQuJVH7_u-u2dX-v"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Check out our friendly pricing plans.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+        >
+          <label for="email">Enter your email:</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Product Landing Page. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
